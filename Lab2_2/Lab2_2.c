@@ -1,17 +1,17 @@
-﻿// Lab2_2.c: Обчислення арифметичних задач з форматованим вводом-вивидом//
+﻿// Lab2_2.c: Обчислення арифметичних задач з форматованим вводом-виводом//
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include<locale.h>
 #include <conio.h>
 
-int a, b, c, y;
+int y;
 int main()
 {
 	setlocale(LC_CTYPE, "ukr");
-	const a = 5;
-	const b = -2;
-	const c = 3;
+	const int a = 5;
+	const int b = -2;
+	const int c = 3;
 	
 	y = (3*a-4*b+5*c)/(a*b+2*b*c+3*a*c)-(a*b-c)/4;
 	
